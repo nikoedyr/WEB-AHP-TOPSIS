@@ -1,0 +1,17 @@
+Requirements:
+- Install xampp (download di https://www.apachefriends.org/xampp-files/5.6.37/xampp-win32-5.6.37-0-VC11-installer.exe)
+- Buka aplikasi xampp, hidupkan Apache dan MySQL
+- Buat folder ahp-topsis di c:\xampp\htdocs
+- copy semua isi dari folder ini ke dalam folder ahp-topsis
+
+IMPORT DATABASE:
+- buka browser, ketikkan http://localhost/phpmyadmin
+- Pilih import (tidak usah buat database baru)
+- Pilih file fuzzy_ahp_topsis.sql yang ada di folder database
+- Klik go untuk mulai import database
+
+Running Program
+- Ketikkan http://localhost/ahp-topsis di browser
+- Jika ada dialog login masukkan user dan pass : admin
+
+Selesai :D
